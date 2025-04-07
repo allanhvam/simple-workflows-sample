@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "connor4312.nodejs-testing",
+        "yoavbls.pretty-ts-errors"
+    ]
+}

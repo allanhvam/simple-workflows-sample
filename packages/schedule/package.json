@@ -1,0 +1,16 @@
+{
+    "name": "@simple-workflows-sample/schedule",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./dist/index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint . --max-warnings 0",
+        "build": "npx tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cron": "^4.0.0"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "simple-workflows-sample",
+    "private": true,
+    "scripts": {
+        "build": "npx turbo build",
+        "build-force": "npx turbo run build --force",
+        "dev": "npx turbo dev --env-mode=loose",
+        "lint": "turbo lint",
+        "start": "npx turbo start --env-mode=loose",
+        "test": "npx turbo test --env-mode=loose",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "turbo": "^2.4.4",
+        "typescript": "^5.4.5"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "packageManager": "npm@10.8.1",
+    "workspaces": [
+        "packages/*"
+    ]
+}
