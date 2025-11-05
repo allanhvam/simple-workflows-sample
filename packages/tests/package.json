@@ -1,0 +1,16 @@
+{
+    "name": "@simple-workflows-sample/tests",
+    "version": "0.0.0",
+    "description": "Tests for simple-workflows-sample",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "lint": "eslint . --max-warnings 0",
+        "build": "npx tsc",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "@simple-workflows-sample/workflows": "*",
+        "simple-workflows": "^0.5.4"
+    }
+}
